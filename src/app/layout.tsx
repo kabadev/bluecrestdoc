@@ -9,7 +9,7 @@ import { UserProvider } from "@/contexts/userContext";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "MOJ System ",
+  title: "Dash System ",
   description: "This is the official file management system of the Dash",
 };
 
