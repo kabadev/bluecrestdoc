@@ -168,7 +168,7 @@ const FileList = ({ files }: { files: FileTypes[] }) => {
 
       {/* New File Modal */}
       <NewFileModal
-        fileType="outgoing"
+        fileType="hr"
         isOpen={isNewFileModalOpen}
         onClose={() => setIsNewFileModalOpen(false)}
       />

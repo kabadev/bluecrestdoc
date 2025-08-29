@@ -181,7 +181,7 @@ const PageDetail = ({
         open={formSheetOpen}
         onOpenChange={setFormSheetOpen}
         onSave={handleSaveLetter}
-        fileType="outgoing"
+        fileType="hr"
       />
     </div>
   );

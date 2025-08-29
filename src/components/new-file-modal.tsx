@@ -34,7 +34,7 @@ export function NewFileModal({ fileType, isOpen, onClose }: NewFileModalProps) {
       ...formData,
       filetype: fileType,
     };
-
+    console.log(newFile);
     try {
       setIsLoading(true);
       await addFile(newFile);

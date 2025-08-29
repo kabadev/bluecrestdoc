@@ -129,11 +129,10 @@ export function Sidebar() {
                   className="flex gap-2 items-center font-semibold"
                 >
                   <img
-                    src="/logo.jpg"
-                    className="h-14 w-14 rounded-full"
+                    src="/logo-bccsl.jpg"
+                    className="h-full w-34 rounded-full"
                     alt="Logo"
                   />
-                  <span className="text-lg">DashDoc</span>
                 </Link>
               )}
             </div>

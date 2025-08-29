@@ -14,7 +14,7 @@ export async function POST(request: NextRequest) {
       publicMetadata: {
         role: role,
       },
-      password: `DASH@${firstName}`,
+      password: `BLUE@${firstName}`,
     });
 
     const { data } = await (await clerkClient()).users.getUserList();

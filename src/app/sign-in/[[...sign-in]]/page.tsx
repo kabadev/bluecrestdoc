@@ -27,10 +27,10 @@ const LoginPage = () => {
             className="bg-card w-full p-6 rounded-md shadow-2xl flex flex-col gap-2 pb-6"
           >
             <h1 className="text-xl font-bold flex items-center justify-center gap-2 text-center">
-              Dash file management system
+              Bluecrest file management system
             </h1>
             <p className="text-center text-sm  mb-6">
-              The official file management system of the Dash
+              The official file management system of the Bluecrest
             </p>
             <h2 className="text-lg font-bold text-center">
               Sign in to your account
@@ -63,10 +63,10 @@ const LoginPage = () => {
           >
             <SignIn.Strategy name="email_code">
               <h1 className="text-xl font-bold flex items-center justify-center gap-2 text-center">
-                Dash file management system
+                Bluecrest file management system
               </h1>
               <p className="text-center text-sm  mb-6">
-                The official file management system of the Dash
+                The official file management system of the Bluecrest
               </p>
 
               <h1 className="text-lg font-bold text-center">
@@ -94,10 +94,10 @@ const LoginPage = () => {
 
             <SignIn.Strategy name="password">
               <h1 className="text-xl font-bold flex items-center justify-center gap-2 text-center">
-                Dash file management system
+                Bluecrest file management system
               </h1>
               <p className="text-center text-sm  mb-6">
-                The official file management system of the Dash
+                The official file management system of the Bluecrest
               </p>
               <h2 className="text-lg font-bold text-center">
                 Enter your password
@@ -132,10 +132,10 @@ const LoginPage = () => {
 
             <SignIn.Strategy name="reset_password_email_code">
               <h1 className="text-xl font-bold flex items-center justify-center gap-2 text-center">
-                Dash file management system
+                Bluecrest file management system
               </h1>
               <p className="text-center text-sm  mb-6">
-                The official file management system of the Dash
+                The official file management system of the Bluecrest
               </p>
 
               <h2 className="text-lg font-bold text-center">
@@ -170,10 +170,10 @@ const LoginPage = () => {
             className="bg-card w-full p-6 rounded-md shadow-2xl flex flex-col gap-2"
           >
             <h1 className="text-xl font-bold flex items-center justify-center gap-2 text-center">
-              Dash file management system
+              Bluecrest file management system
             </h1>
             <p className="text-center text-sm  mb-6">
-              The official file management system of the Dash
+              The official file management system of the Bluecrest
             </p>
             <h1 className="text-lg font-bold text-center">
               Forgot your password?

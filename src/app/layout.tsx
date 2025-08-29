@@ -9,8 +9,8 @@ import { UserProvider } from "@/contexts/userContext";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Dash System ",
-  description: "This is the official file management system of the Dash",
+  title: "Bluecrest doc System ",
+  description: "This is the official file management system of the Bluecrest",
 };
 
 export default function RootLayout({
