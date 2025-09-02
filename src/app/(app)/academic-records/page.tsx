@@ -1,3 +1,4 @@
+export const dynamic = "force-dynamic";
 import { getFiles } from "@/actions/file";
 import FileList from "./FileList";
 import { FileTypes } from "@/types";

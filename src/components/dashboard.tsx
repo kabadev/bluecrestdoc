@@ -90,7 +90,7 @@ export function Dashboard({ fileStats, letterStats }: DashboardProps) {
           icon={<Files className="h-5 w-5 text-sky-600" />}
         />
         <SummaryCard
-          title="Total Letters"
+          title="Total Documents"
           value={letterStats.totalLetters}
           description="All correspondence"
           icon={<Mail className="h-5 w-5 text-indigo-600" />}
@@ -110,7 +110,7 @@ export function Dashboard({ fileStats, letterStats }: DashboardProps) {
       </div>
 
       {/* Incoming/Outgoing Stats */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+      {/* <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         <Card className="shadow-none border-none">
           <CardHeader>
             <CardTitle>File Direction</CardTitle>
@@ -154,10 +154,10 @@ export function Dashboard({ fileStats, letterStats }: DashboardProps) {
             />
           </CardContent>
         </Card>
-      </div>
+      </div> */}
 
       {/* Charts Section */}
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+      <div className="grid grid-cols-1 lg:grid-cols-1 gap-6">
         <Card className="shadow-none border-none">
           <CardHeader>
             <CardTitle>File Distribution by Type</CardTitle>
@@ -170,7 +170,7 @@ export function Dashboard({ fileStats, letterStats }: DashboardProps) {
           </CardContent>
         </Card>
 
-        <Card className="shadow-none border-none">
+        {/* <Card className="shadow-none border-none">
           <CardHeader>
             <CardTitle>Letter Distribution</CardTitle>
             <CardDescription>
@@ -180,7 +180,7 @@ export function Dashboard({ fileStats, letterStats }: DashboardProps) {
           <CardContent>
             <LetterPieChart data={letterStats.lettersByDirection} />
           </CardContent>
-        </Card>
+        </Card> */}
       </div>
 
       {/* File Type Distribution */}
@@ -198,7 +198,7 @@ export function Dashboard({ fileStats, letterStats }: DashboardProps) {
       <Card className="shadow-none border-none">
         <CardHeader>
           <CardTitle>Recent Correspondence</CardTitle>
-          <CardDescription>Latest letters received or sent</CardDescription>
+          <CardDescription>Latest documents </CardDescription>
         </CardHeader>
         <CardContent>
           <RecentLetters letters={letterStats.recentLetters} />

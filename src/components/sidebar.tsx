@@ -55,7 +55,18 @@ const navigation = [
     href: "/other-documents",
     icon: FolderX,
   },
-  { name: "Personal (Coming soon)", roles: ["*"], href: "#", icon: Folders },
+  {
+    name: "Document Verification (Coming soon)",
+    roles: ["*"],
+    href: "#",
+    icon: Folders,
+  },
+  {
+    name: "Personal (Coming soon)",
+    roles: ["*"],
+    href: "#",
+    icon: Folders,
+  },
   { name: "Users", roles: ["admin"], href: "/users", icon: Users2 },
 ];
 
