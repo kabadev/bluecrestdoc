@@ -7,7 +7,7 @@ import { Dashboard } from "@/components/dashboard";
 import { DashboardSkeleton } from "@/components/dashboard-skeleton";
 
 export const metadata: Metadata = {
-  title: "Dashboard | MOJ  System",
+  title: "Dashboard | Bluecrest System",
   description:
     "Document management system dashboard with file and letter statistics",
 };

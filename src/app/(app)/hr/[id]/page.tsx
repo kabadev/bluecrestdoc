@@ -1,3 +1,4 @@
+export const dynamic = "force-dynamic";
 import { getOneFile } from "@/actions/file";
 
 import React from "react";
