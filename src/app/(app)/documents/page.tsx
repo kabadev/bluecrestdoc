@@ -237,7 +237,7 @@ export default function PlagiarismCheckerPage() {
                               key={matchIndex}
                               className="text-xs text-gray-500 italic"
                             >
-                              "{match.substring(0, 100)}..."
+                              {`"${match.substring(0, 100)}..."`}
                             </p>
                           ))}
                       </div>
