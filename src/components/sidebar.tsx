@@ -56,9 +56,9 @@ const navigation = [
     icon: FolderX,
   },
   {
-    name: "Document Verification (Coming soon)",
+    name: "Document Verification",
     roles: ["*"],
-    href: "#",
+    href: "/documents",
     icon: Folders,
   },
   {
